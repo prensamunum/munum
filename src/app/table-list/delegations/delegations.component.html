@@ -1,0 +1,47 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header" data-background-color="red">
+                        <h4 class="title text-white"><b>Institucion</b></h4>
+                        <p class="category"><b></b></p>
+                    </div>
+                    <div class="card-content table-responsive">
+                        <table class="table">
+                            <thead class="text-danger">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Institucion</th>
+                                    <th>Contacto</th>
+                                    <th>Numero</th>
+                                    <th>Codigo</th>
+                                    <th>Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let delegation of delegations; let i = index">
+                                    <td>{{i+1}}</td>
+                                    <td>{{delegation.institutionName}}</td>
+                                    <td>{{delegation.sponsorName}}</td>
+                                    <td class="text-danger">{{delegation.code}}</td>
+                                    <td  class="td-actions text-right">
+                                        <button class="btn  btn-primary btn-simple btn-xs" rel="tooltip" title="Delegates" type="button" (click)="delegates(delegation)">
+                                            <i class="material-icons">list</i>
+                                        </button>
+                                        <button  class="btn btn-primary btn-simple btn-xs" rel="tooltip" title="Edit Task" type="button" (click)="editView(delegation._id)">
+                                            <i  class="material-icons">edit</i>
+                                        </button>
+                                        <button class="btn btn-danger btn-simple btn-xs" rel="tooltip" title="Remove" type="button" (click)="delete(delegation._id)">
+                                            <i class="material-icons">close</i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-4">
+                    <select class="form-control formFormat" [(ngModel)]="committee.committees" name="committee" (change)="delegatesByComittee()">
+                        <option value="" disabled="true">Seleccione un comité</option>
+                        <option value="1">Consejo de Seguridad</option>
+                        <option value="2">Comité de Estado Mayor</option>
+                        <option value="3">Human Rights Council</option>
+                        <option value="4">CPH - Manama 2018</option>
+                        <option value="5">Comisión de Derecho Internacional</option>
+                        <option value="6">Senado de la República</option>
+                        <option value="7">Mesa de Astaná</option>
+                        <option value="8">Consorcio Munidla de prensa</option>
+                        <option value="9">GAC - Juego de Tronos</option>
+                        <option value="10">GAE - Col 2018</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header" data-background-color="red">
+                            <h4 class="title text-white"><b>Usuarios</b></h4>
+                            <p class="category"><b>Here is a subtitle for this table</b></p>
+                        </div>
+                        <div class="card-content table-responsive">
+                            <table class="table">
+                                <thead class="text-danger">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Nombre</th>
+                                    <th>Id</th>
+                                    <th>Institucion</th>
+                                    <th>Codigo</th>
+                                    <th>Opciones</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr *ngFor="let delegate of delegates; let i = index">
+                                    <td>{{i+1}}</td>
+                                    <td>{{delegate.lastName}}, {{delegate.name}}</td>
+                                    <td>{{delegate.idType}} {{delegate.idNumber}}</td>
+                                    <td>{{delegate.institution}}</td>
+                                    <td class="text-danger">{{delegate.code}}</td>
+                                    <td class="td-actions text-right">
+                                        <button class="btn btn-primary btn-simple btn-xs" rel="tooltip"
+                                                title="Edit Task" type="button" (click)="editView(delegate._id)">
+                                            <i class="material-icons">edit</i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <!--<div *ngIf='delegates === 0'>No existen usuarios registrados</div>-->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

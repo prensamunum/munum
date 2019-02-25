@@ -1,0 +1,268 @@
+<div class="main-content">
+    <div class="container-fluid">
+
+        <div *ngIf="!card">
+            <div class="row">
+                <div class="col-md-offset-3 col-lg-6 col-md-12">
+                    <div class="btn card">
+                        <div class="card-content">
+                            <div class="text-center">
+                                Escanerar codigo QR
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="text-center">
+                    o
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-offset-3 col-lg-6 col-md-12">
+                    <form class="nav-align-center" role="search" (submit)="onSubmit()">
+                        <div >
+                            <input type="text" class="form-control" placeholder="Buscar ID" [(ngModel)]="delegate.id" name="id">
+                            <span class="material-input"></span>
+                        </div>
+                        <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                            <i class="material-icons">search</i>
+                            <div class="ripple-container"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div *ngIf="card">
+            <div class="row">
+                <div class="col-md-offset-3 col-lg-6 col-md-12">
+                    <h2 class="text-center">
+                        {{delegate.name}} {{delegate.lastName}}
+                    </h2>
+                    <h5 class="text-center">
+                        {{delegate.idType}} {{delegate.idNumber}}
+                    </h5>
+                </div>
+                <br>
+                <br>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-offset-1 col-md-2">
+                    <div class="btn btn-default" (click)="regresar()">
+                        <div>atras</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="card card-nav-tabs">
+                        <div class="card-header" data-background-color="purple">
+                            <div class="nav-tabs-navigation">
+                                <div class="nav-tabs-wrapper">
+                                    <span class="nav-tabs-title">Tareas:</span>
+                                    <ul class="nav nav-tabs" data-tabs="tabs">
+                                        <li class="active">
+                                            <a href="#kit" data-toggle="tab">
+                                                <i class="material-icons">book</i>
+                                                Kit
+                                                <div class="ripple-container"></div>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#break" data-toggle="tab">
+                                                <i class="material-icons">free_breakfast
+                                                </i>
+                                                Refigerios
+                                                <div class="ripple-container"></div>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#dinner" data-toggle="tab">
+                                                <i class="material-icons">restaurant</i>
+                                                Almuerozos
+                                                <div class="ripple-container"></div>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#list" data-toggle="tab">
+                                                <i class="material-icons">check_circle</i>
+                                                Lista
+                                                <div class="ripple-container"></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="tab-content">
+
+                                <div class="tab-pane active" id="kit">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Kit delegado</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane" id="break">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 4</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane" id="dinner">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 4</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane" id="list">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 1</td>
+                                        </tr><tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 2</td>
+                                        </tr><tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 3</td>
+                                        </tr><tr>
+                                            <td>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes" >
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>Dia 4</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

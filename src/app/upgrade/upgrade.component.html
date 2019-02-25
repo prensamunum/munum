@@ -1,0 +1,46 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="card">
+                    <div class="card-header text-center" data-background-color="red">
+                        <h4 class="title"><b>Descargas</b></h4>
+                        <!--<p class="category">Descargas</p>-->
+                    </div>
+                    <div class="card-content">
+                        <div class="table-responsive table-upgrade">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th class="text-center">Formato</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Delegados</td>
+                                        <td class="text-center">
+                                            <a (click)="delegados()" class="btn btn-round btn-fill btn-default" download>.XLSX</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Instituciones</td>
+                                        <td class="text-center">
+                                            <a (click)="instituciones()" class="btn btn-round btn-fill btn-default" download>.XLSX</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Staff</td>
+                                        <td class="text-center">
+                                            <a (click)="staff()" class="btn btn-round btn-fill btn-default" download>.XLSX</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

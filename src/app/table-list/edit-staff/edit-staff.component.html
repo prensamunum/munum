@@ -1,0 +1,247 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="login-page">
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="btn btn-default" routerLink="/admin/staff" >
+                        <div>< atras</div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header" data-background-color="orange">
+                            <h4 class="title text-white"><b>Welcome</b></h4>
+                            <p class="category" >{{oneStaff._id}}</p>
+                        </div>
+                        <div class="card-content">
+
+                            <!--Formularo de registro-->
+                            <form (submit)="onSubmit()">
+
+                                <div class="text-danger text-center" *ngIf="err">
+                                    {{err}}
+                                </div>
+
+                                <!--Content-->
+                                <br>
+                                <span class="required"><b>Tipo de Usuario</b></span>
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <select class="form-control formFormat" [(ngModel)]="oneStaff.role"
+                                                name="role">
+                                            <option value="SG">SG</option>
+                                            <option value="STAFF">STAFF</option>
+                                            <option value="PRESI">PRESIDENTE</option>
+                                            <option value="NONE">NINGUNO</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <br>
+                                <span class="required"><b>General Information</b></span>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">Nombre<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.name"
+                                                   name="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Apellido<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.lastName"
+                                                   name="lastName">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Correo<span
+                                                    class="required">*</span></label>
+                                            <input type="email" class="form-control" [(ngModel)]="oneStaff.email"
+                                                   name="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Fecha nacimiento (DD/MM/YYYY)<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.birth"
+                                                   name="birth">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <!--<label for="sel1">Type of Id</label>-->
+                                        <select class="form-control formFormat" [(ngModel)]="oneStaff.idType"
+                                                name="idType">
+                                            <option value="C.C">C.C</option>
+                                            <option value="T.I">T.I</option>
+                                            <option value="P.P">Passport</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Numero Documento<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.idNumber"
+                                                   name="idNumber">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Celular<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.cellphone"
+                                                   name="cellphone">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Pais de residencia<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.country"
+                                                   name="country">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Ciudad de residencia<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.city"
+                                                   name="city">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Instituto de educacion<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="oneStaff.institution"
+                                                   name="institution">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Carrera<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.degree"
+                                                   name="degree">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <br>
+                                    <div class="col-md-2">
+                                        <div class="formFormat2">Vegetariano (N/S)</div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="togglebutton">
+                                            <label>
+                                                <input type="checkbox" [(ngModel)]="oneStaff.vegetarian"
+                                                       name="vegetarian">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <hr>
+                                <span class="required"><b>Informacion de emergencia</b></span>
+
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <select class="form-control formFormat" [(ngModel)]="oneStaff.blood"
+                                                name="blood">
+                                            <option value="A+">A+</option>
+                                            <option value="A-">A-</option>
+                                            <option value="B+">B+</option>
+                                            <option value="B-">B-</option>
+                                            <option value="O+">O+</option>
+                                            <option value="O-">O-</option>
+                                            <option value="AB+">AB+</option>
+                                            <option value="AB-">AB-</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Seguro medico<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.insurance"
+                                                   name="insurance">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Condicion special de salud</label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="oneStaff.specialCondition"
+                                                   name="specialCondition">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label">Nombre de concatacto de emergencia<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="oneStaff.contactName"
+                                                   name="contactName">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black y">
+                                            <label class="control-label">Telefono de contacto de emergincia <span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="oneStaff.contactPhone"
+                                                   name="contactPhone">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black ">
+                                            <label class="control-label"> Numero de años que ha participado en
+                                                MUNs<span
+                                                        class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="oneStaff.numberMun"
+                                                   name="numberMun">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-warning pull-right">Actualizar</button>
+                                <button type="cancel" class="btn btn-default pull-right">Cancelar</button>
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,626 @@
+<div class="section section-header" id="munum">
+    <div class="parallax filter filter-color-darkBlue">
+        <div class="image" style="background-image: url('../../../assets/img/cover3.webp')"></div>
+        <div class="container">
+            <div class="content">
+                <img alt="..." class="logo" src="../../../assets/img/icons/munum-icon.svg">
+                <div class="row">
+                    <div class="title-area">
+                        <div>{{ 'land.munum' | translate }}</div>
+                        <!--<h1 class="title-modern">MUNUM'18</h1>-->
+                        <!--<h3>{{'Land.munum' | translate }}</h3>-->
+                        <p>{{ 'land.date' | translate }}</p>
+                        <div class="separator line-separator">♦</div>
+                    </div>
+
+                    <div class="button-get-started">
+                        <!--<a href="register" target="_blank" c>
+                            Enroll
+                        </a>-->
+                        <div class="btn btn-white btn-fill btn-lg btn-countdown">
+                            <div id="Countdown"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--saludos-->
+<div class="section">
+    <div class="container" id="saludos">
+
+        <!-- Bienvenida del Camila -->
+        <div class="row">
+            <h2 class="text-center">{{ 'land.welcome.abel.title' | translate }}</h2>
+            <div class="separator separator-blue">✻</div>
+            <div class="intro">
+                <div class="col-sm-6">
+                    <img class="intro-img" src="../../../assets/img/pictures/secretariaGeneral500.jpg" alt="">
+                </div>
+                <div class=" col-sm-6 card-price2 intro-text  text-center bg-faded bg-faded-darkblue">
+                    <h2 class="section-heading">
+                        <span class="section-heading-lower text-center">{{ 'land.welcome.abel.name' | translate }}</span>
+                        <span class="section-heading-upper section-heading-upper-charge text-center">{{
+                            'land.welcome.abel.charge' | translate }}</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <p class="description" align="justify"> {{ 'land.welcome.abel.body.0.paragraph' |
+                        translate }}</p>
+                    <p class="description" align="justify"> {{ 'land.welcome.abel.body.1.paragraph' |
+                        translate }}</p>
+                    <p class="description" align="justify"> {{ 'land.welcome.abel.body.2.paragraph' |
+                        translate }}</p>
+                    <br>
+                    <p class="description text-right"><b> </b> <br><i> </i>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu">
+            <div class="panel">
+
+                <!-- Botones de Seleccion -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12" data-toggle="collapse" data-parent="#menu" data-target="#subsg">
+                            <div class="card-regards text-center">
+                                <div><b>{{ 'land.welcome.btn.GS' | translate }}</b></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12" data-toggle="collapse" data-parent="#menu" data-target="#logistica">
+                            <div class="card-regards text-center">
+                                <div><b>{{ 'land.welcome.btn.LT' | translate }}</b></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12" data-toggle="collapse" data-parent="#menu" data-target="#prensa">
+                            <div class="card-regards text-center">
+                                <div><b>{{ 'land.welcome.btn.PT' | translate }}</b></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12" data-toggle="collapse" data-parent="#menu" data-target="#academico">
+                            <div class="card-regards text-center">
+                                <div><b>{{ 'land.welcome.btn.AT' | translate }}</b></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saludo Subsg -->
+                <div class="row collapse" id="subsg">
+                    <!-- Separador -->
+                    <div class="separator separator-blue">✻</div>
+
+
+                    <div class="intro">
+                        <div class="col-sm-6">
+                            <img class="intro-img " src="../../../assets/img/pictures/subsecretariaGeneral400.jpg" alt="">
+                        </div>
+                        <div class=" col-sm-6 card-price2 intro-text  text-center bg-faded bg-faded-darkblue">
+                            <h2 class="section-heading">
+                                <span class="section-heading-lower text-center">{{ 'land.welcome.mafe.name'
+                                    | translate }}</span>
+                                <span class="section-heading-upper section-heading-upper-charge text-center">{{
+                                    'land.welcome.mafe.charge' | translate }}</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <p class="description" align="justify"> {{ 'land.welcome.mafe.body.0.paragraph'
+                                |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.mafe.body.1.paragraph'
+                                |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.mafe.body.2.paragraph'
+                                |
+                                translate }}</p>
+                            <br>
+                            <p class="description text-right"><b> </b> <br><i> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saludo Logistica -->
+                <div class="row collapse" id="logistica">
+                    <!-- Separador -->
+                    <div class="separator separator-blue">✻</div>
+
+                    <div class="intro">
+                        <div class="col-sm-6">
+                            <img class="intro-img img-responsive" src="../../../assets/img/pictures/julian.jpg" alt="">
+                        </div>
+                        <div class=" col-sm-6 card-price2 intro-text  text-center bg-faded bg-faded-darkblue">
+                            <h2 class=" section-heading">
+                                <span class="section-heading-lower text-center">{{ 'land.welcome.julian.name' |
+                                    translate }}</span>
+                                <span class="section-heading-upper section-heading-upper-charge text-center">{{
+                                    'land.welcome.julian.charge' | translate }}</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <p class="description" align="justify"> {{ 'land.welcome.julian.body.0.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.julian.body.1.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.julian.body.2.paragraph' |
+                                translate }}</p>
+                            <br>
+                            <p class="description text-right"><b> </b> <br><i> </i>
+                            </p>
+                        </div>
+                    </div>
+                    <!--Presidente 1-->
+                    <div class="col-md-offset-2 col-md-8 col-xs-6 info-picture">
+                        <img class="img-responsive" src="../../../assets/img/pictures/co_logistico.jpg" alt="">
+                        <div class="text-picture">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper section-heading-upper-charge text-center ">Integrantes:
+                                    María Fernanda Landazuri, María Fernanda Rodríguez, Julián Puentes,
+                                    Giselle Lorduy y Ángela Restrepo</span>
+                            </h2>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saludo Prensa -->
+                <div class="row collapse" id="prensa">
+                    <div class="separator separator-blue">✻</div>
+
+                    <div class="intro">
+                        <div class="col-sm-6">
+                            <img class="intro-img img-responsive" src="../../../assets/img/pictures/jeisson.jpg" alt="">
+                        </div>
+                        <div class=" col-sm-6 card-price2 intro-text  text-center bg-faded bg-faded-darkblue">
+                            <h2 class=" section-heading">
+                                <span class="section-heading-lower text-center">{{ 'land.welcome.jeisson.name' |
+                                    translate }}</span>
+                                <span class="section-heading-upper section-heading-upper-charge text-center">{{
+                                    'land.welcome.jeisson.charge' | translate }}</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.0.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.1.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.2.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.3.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.4.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.5.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.6.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.7.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.8.paragraph' |
+                                translate }}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.jeisson.body.9.paragraph' |
+                                translate }}</p>
+                            <br>
+                            <p class="description text-right"><b> </b> <br><i> </i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Presidente 1-->
+                    <div class="col-md-offset-2 col-md-8 col-xs-6 info-picture">
+                        <img class="img-responsive" src="../../../assets/img/pictures/co_prensa.jpg" alt="">
+                        <div class="text-picture">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper section-heading-upper-charge text-center "><b>Integrantes:</b>
+                                    Danna Muñóz, Jeisson Sánchez y Ana María Granados.</span>
+                            </h2>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saludo Academico -->
+                <div class="row collapse" id="academico">
+                    <div class="separator separator-blue">✻</div>
+
+                    <div class="intro">
+                        <div class="col-sm-6">
+                            <img class="intro-img img-responsive" src="../../../assets/img/pictures/david.jpg" alt="">
+                        </div>
+                        <div class=" col-sm-6 card-price2 intro-text  text-center bg-faded bg-faded-darkblue">
+                            <h2 class=" section-heading">
+                                <span class="section-heading-lower text-center">{{ 'land.welcome.david.name' |
+                                    translate }}</span>
+                                <span class="section-heading-upper section-heading-upper-charge text-center">{{
+                                    'land.welcome.david.charge' | translate }}</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <p class="description" align="justify"> {{ 'land.welcome.david.body.0.paragraph' |
+                                translate}}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.david.body.1.paragraph' |
+                                translate}}</p>
+                            <p class="description" align="justify"> {{ 'land.welcome.david.body.2.paragraph' |
+                                translate}}</p>
+                        </div>
+                    </div>
+
+                    <!--Presidente 1-->
+                    <div class="col-md-offset-2 col-md-8 col-xs-6 info-picture">
+                        <img class="img-responsive" src="../../../assets/img/pictures/co_academico.jpg" alt="">
+                        <div class="text-picture">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper section-heading-upper-charge text-center ">Integrantes:
+                                    María Camila Chávez, Daniela Rodríguez, Daniel González y Luisa Orozco.</span>
+                            </h2>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--inscripcion-->
+<div class="section section-small section-get-started">
+    <div class="parallax filter">
+        <div class="image" style="background-image: url('../../../assets/img/cover12.webp')">
+        </div>
+        <div class="container">
+            <div class="title-area">
+                <h2 class="text-white">{{ 'land.inscription.title' | translate }}</h2>
+                <div class="separator line-separator">♦</div>
+                <!--<p class="description"> {{ 'land.inscription.subtitle.0.paragraph' | translate }}</p>-->
+                <p class="description">Nuestras inscripciones están cerradas.</p>
+            </div>
+
+            <!--<div class="button-get-started">-->
+            <!--<a routerLink="/register" class="btn btn-danger btn-fill btn-lg">{{ 'land.inscription.codeBtn2' | translate }}</a>-->
+            <!--</div>-->
+
+            <!--<br><br>-->
+
+            <!--<div class="title-area">-->
+            <!--<p class="description">{{ 'land.inscription.subtitle.1.paragraph' | translate }} </p>-->
+            <!--</div>-->
+
+            <!--<div class="button-get-started">-->
+            <!--&lt;!&ndash;btn-inscription&ndash;&gt;-->
+            <!--<a routerLink="/delegation" class="btn btn-danger btn-fill btn-lg">{{ 'land.inscription.codeBtn1' | translate }}</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<!--precios-->
+<div class="section section-our-clients-freebie" id="pricing">
+    <div class="container">
+        <div class="title-area">
+            <!--<h5 class="subtitle text-gray">Precio</h5>-->
+            <h2>{{ 'land.price.title' | translate }}</h2>
+            <div class="separator separator-blue">✻</div>
+            <p class="description">{{ 'land.price.footer' | translate }} </p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 col-sm-12">
+                <div class="card-price2 text-center">
+                    <div class="card-price-content"><b><span>30</span>.000</b> COP</div>
+                </div>
+                <div class="card-price-footer text-center">
+                    <h4><b>{{ 'land.price.body.0.name' | translate }}</b></h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card-price2 text-center">
+                    <div class="card-price-content"><b><span>70</span>.000</b> COP</div>
+                </div>
+                <div class="card-price-footer text-center">
+                    <h4><b>{{ 'land.price.body.1.name' | translate }}</b></h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card-price2 text-center">
+                    <div class="card-price-content"><b><span>25</span></b> USD</div>
+                </div>
+                <div class="card-price-footer text-center">
+                    <h4><b>{{ 'land.price.body.2.name' | translate }}</b></h4>
+                </div>
+            </div>
+
+            <!--<div class="col-md-4 col-sm-12">-->
+            <!--<div class="card-price text-center">-->
+            <!--<div>.</div>-->
+            <!--<div class="card-price-content"><b><span>25</span>.000</b> COP</div>-->
+            <!--<div class="row card-price-footer">-->
+            <!--<b>{{ 'Land.price.body.0.name' | translate }}</b>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-12">-->
+            <!--<div class="card-price text-center">-->
+            <!--<div>.</div>-->
+            <!--<div class="card-price-content"><b><span>50</span>.000</b> COP</div>-->
+            <!--<div class="row card-price-footer">-->
+            <!--<b>{{ 'Land.price.body.1.name' | translate }}</b>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-12">-->
+            <!--<div class="card-price text-center">-->
+            <!--<div>.</div>-->
+            <!--<div class="card-price-content"><span><b>25</b></span>USD</div>-->
+            <!--<div class="row card-price-footer">-->
+            <!--<b>{{ 'Land.price.body.2.name' | translate }}</b>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<br>-->
+            <!--<br>-->
+
+
+            <!--<div class="active" id="testimonial1">-->
+            <!--<p class="description text-center">-->
+            <!--<span class="text-nota"><a href=""-->
+            <!--download="precios.pdf">descarga nuestra lista mas detallada</a></span>-->
+            <!--</p>-->
+
+            <!--</div>-->
+
+        </div>
+    </div>
+</div>
+
+<!--comités-->
+<div class="section section-our-team-freebie" autofocus>
+    <div class="parallax filter filter-color-gold" id="wrapper">
+        <div class="image" style="background-image:url('../../../assets/img/cover2.webp')">
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="title-area">
+                        <h2>{{ 'land.sga.title' | translate }}</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <p class="description">{{ 'land.sga.subtitle' | translate }} </p>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a routerLink="/onu" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-1">{{ 'land.sga.body.0.name' | translate}}</h3>
+                                                <p class="small-text">
+                                                    <a>{{ 'land.sga.body.0.commitee.0' | translate}}</a><br>
+                                                    <a>{{ 'land.sga.body.0.commitee.1' | translate }}</a><br>
+                                                    <a>{{'land.sga.body.0.commitee.2' | translate}}</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a routerLink="/crisis" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-2">{{ 'land.sga.body.1.name' | translate}}</h3>
+                                                <p class="small-text">
+                                                    <a>{{'land.sga.body.1.commitee.0' | translate}}</a><br>
+                                                    <a>{{'land.sga.body.1.commitee.1' | translate}}</a><br>
+                                                    <a>{{'land.sga.body.1.commitee.2' | translate}}</a><br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-md-6">
+                                    <a routerLink="/especializados" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-3">{{ 'land.sga.body.2.name' | translate}}</h3>
+                                                <p class="small-text">
+                                                    <a> {{'land.sga.body.2.commitee.0' | translate}}</a><br>
+                                                    <a>{{'land.sga.body.2.commitee.1' | translate}}</a><br>
+                                                    <a>{{'land.sga.body.2.commitee.2' | translate}}</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a routerLink="/regionales" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-4">{{ 'land.sga.body.3.name' | translate}}</h3>
+                                                <p class="small-text">
+                                                    <a>{{ 'land.sga.body.3.commitee.0' | translate}}</a><br>
+                                                    <a>{{'land.sga.body.3.commitee.1' | translate}}</a><br>
+                                                    <a>{{'land.sga.body.3.commitee.2' | translate}}</a><br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-6 ">
+                                    <a routerLink="/especializados" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-3">{{ 'land.sga.body.4.name' | translate}}</h3>
+                                                <p class="small-text">
+                                                    <a> {{'land.sga.body.4.commitee.0' | translate}}</a><br>
+                                                    <a>{{'land.sga.body.4.commitee.1' | translate}}</a><br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="second">
+
+        </div>
+    </div>
+</div>
+
+<!--herramientas-->
+<div class="section section-our-clients-freebie" id="tools">
+    <div class="container">
+        <div class="title-area">
+            <!--<h5 class="subtitle text-gray">Precio</h5>-->
+            <h2>{{ 'land.tools.title' | translate }}</h2>
+            <div class="separator separator-blue">✻</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="pe-7s-graph1"></i>
+                    </div>
+                    <a href="/../../../assets/doc/Handbook.pdf" download>
+                        <img src="/../../../assets/img/icons/abc.svg" class="down-icon" alt="">
+                        <h3 class="down-icon-text">{{ 'land.tools.handbook' | translate }}</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="pe-7s-note2"></i>
+                    </div>
+                    <a href="/../../../assets/doc/Estatutos.pdf" download>
+                        <img src="/../../../assets/img/icons/trophy.svg" class="down-icon" alt="">
+                        <h3 class="down-icon-text">{{ 'land.tools.matrix' | translate }}</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="pe-7s-music"></i>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1b5rVvcgE8HBgKqhnN03-BPPQStoA5JoX?usp=sharing"
+                        target="_blank">
+                        <img src="/../../../assets/img/icons/planet-earth.svg" class="down-icon" alt="">
+                        <h3 class="down-icon-text">{{ 'land.tools.countries' | translate }}</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="pe-7s-music"></i>
+                    </div>
+                    <a href="/../../../assets/doc/Anexos.pdf" download>
+                        <img src="/../../../assets/img/icons/test.svg" class="down-icon" alt="">
+                        <h3 class="down-icon-text">{{ 'land.tools.positonPaper' | translate }}</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="footer footer-big footer-color-black" data-color="black">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3">
+                <div class="info">
+                    <h5 class="title">Intranet</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a routerLink="/login">Login Staff</a>
+                            </li>
+                            <!--<li>-->
+                            <!--<a routerLink="/staffRegistry">Register Staff</a>-->
+                            <!--</li>-->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-md-offset-1 col-sm-3">
+                <div class="info">
+                    <h5 class="title">{{ 'land.footer.contact' | translate }}</h5>
+                    <nav>
+                        <ul>
+                            <hr class="hr-small">
+                            <li>
+                                <a> María Camila Chavez<br> sg.munum@gmail.com <br> (+57) 316 4524153</a>
+                            </li>
+                            <hr class="hr-small">
+                            <li>
+                                <a> Mafe Landazuri <br> subsg.munum@gmail.com <br> (+57) 321 4765266</a>
+                            </li>
+                            <hr class="hr-small">
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-offset-2 col-md-2  col-sm-3">
+                <div class="info">
+                    <h5 class="title">{{ 'land.footer.follow' | translate }}</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/munum.co/" target="_blank" class="btn btn-social btn-facebook btn-simple">
+                                    <i class="fa fa-facebook-square"></i> Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/munum.co/" target="_blank" class="btn btn-social btn-dribbble btn-simple">
+                                    <i class="fa fa-instagram"></i> Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            ©
+            <script> document.write(new Date().getFullYear()) </script>
+            Creative Tim, made with love - Edited by Jeisson F. Sánchez
+            <br>
+            #ADNmunum - #BreakingBoundaries
+        </div>
+    </div>
+</footer>

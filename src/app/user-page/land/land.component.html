@@ -1,0 +1,370 @@
+<!--<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">-->
+    <!--&lt;!&ndash; if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"&ndash;&gt;-->
+    <!--<div class="container">-->
+        <!--<div class="navbar-header">-->
+            <!--<button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">-->
+                <!--<span class="sr-only">Toggle navigation</span>-->
+                <!--<span class="icon-bar bar1"></span>-->
+                <!--<span class="icon-bar bar2"></span>-->
+                <!--<span class="icon-bar bar3"></span>-->
+            <!--</button>-->
+            <!--<a href="/land" class="navbar-brand">-->
+                <!--MUNUM'18-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<div class="collapse navbar-collapse">-->
+            <!--<ul class="nav navbar-nav navbar-right navbar-uppercase">-->
+                <!--<li>-->
+                    <!--<a href="http://www.creative-tim.com/product/gaia-bootstrap-template-pro" target="_blank">Get PRO-->
+                        <!--Version</a>-->
+                <!--</li>-->
+                <!--<li class="dropdown">-->
+                    <!--<a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">-->
+                        <!--<i class="fa fa-share-alt"></i> Share-->
+                    <!--</a>-->
+                    <!--<ul class="dropdown-menu dropdown-danger">-->
+                        <!--<li>-->
+                            <!--<a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<a href="#"><i class="fa fa-twitter"></i> Twitter</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<a href="#"><i class="fa fa-instagram"></i> Instagram</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="/register" class="btn btn-danger btn-fill">Free Download</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
+    <!--</div>-->
+<!--</nav>-->
+
+
+<div class="section section-header">
+    <div class="parallax filter filter-color-darkBlue">
+        <div class="image" style="background-image: url('../../../assets/img/cover3.webp')"></div>
+        <div class="container">
+            <div class="content">
+                <img alt="..." class="logo" src="../../../assets/img/icons/munum-icon.svg">
+                <div class="row">
+                    <div class="title-area">
+                        <div>{{ 'Land.munum' | translate }}</div>
+                        <!--<h1 class="title-modern">MUNUM'18</h1>-->
+                        <!--<h3>{{'Land.munum' | translate }}</h3>-->
+                        <p>{{ 'Land.date' | translate }}</p>
+                        <div class="separator line-separator">♦</div>
+                    </div>
+
+                    <div class="button-get-started">
+                        <!--<a href="register" target="_blank" c>
+                            Enroll
+                        </a>-->
+                        <div class="btn btn-white btn-fill btn-lg btn-countdown">
+                            <div id="Countdown"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="title-area">
+                <h2>{{ 'Land.welcome.title' | translate }}</h2>
+                <div class="separator separator-blue">✻</div>
+                <p class="description"> {{ 'Land.welcome.body.0.paragraph' | translate }}</p>
+                <p class="description"> {{ 'Land.welcome.body.1.paragraph' | translate }}</p>
+                <p class="description"> {{ 'Land.welcome.body.2.paragraph' | translate }}</p>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="pe-7s-graph1"></i>
+                    </div>
+                    <a href="#">
+                        <img src="/../../../assets/img/icons/abc.svg" class="down-icon" alt="">
+                        <h3 class="down-icon-text">{{ 'Land.welcome.handbook' | translate }}</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="pe-7s-note2"></i>
+                    </div>
+                    <a href="#">
+                        <img src="/../../../assets/img/icons/trophy.svg" class="down-icon" alt="">
+                        <h3 class="down-icon-text">{{ 'Land.welcome.matrix' | translate }}</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="pe-7s-music"></i>
+                    </div>
+                    <a href="#">
+                        <img src="/../../../assets/img/icons/planet-earth.svg" class="down-icon" alt="">
+                        <h3 class="down-icon-text">{{ 'Land.welcome.countries' | translate }}</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section section-our-team-freebie" id="committee">
+    <div class="parallax filter filter-color-gold" id="wrapper">
+        <div class="image" style="background-image:url('../../../assets/img/cover2.webp')">
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="title-area">
+                        <h2>{{ 'Land.sga.title' | translate }}</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <p class="description">{{ 'Land.sga.subtitle' | translate }} </p>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+
+                            <div class="row">
+                                <div class="col-md-offset-2 col-md-4">
+                                    <a  data-scroll class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-1">{{ 'Land.sga.body.0.name' | translate }}</h3>
+                                                <p class="small-text">{{ 'Land.sga.body.0.commitee.0' | translate }}<br>{{ 'Land.sga.body.0.commitee.1' | translate }}<br>{{ 'Land.sga.body.0.commitee.2' | translate }}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="/" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-2">{{ 'Land.sga.body.1.name' | translate }}</h3>
+                                                <p class="small-text">{{ 'Land.sga.body.1.commitee.0' | translate }}<br>{{ 'Land.sga.body.1.commitee.1' | translate }} <br>.</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-offset-2 col-md-4">
+                                    <a href="/" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-3">{{ 'Land.sga.body.2.name' | translate }}</h3>
+                                                <p class="small-text">{{ 'Land.sga.body.2.commitee.0' | translate }}<br>{{ 'Land.sga.body.2.commitee.1' | translate }}<br>{{ 'Land.sga.body.2.commitee.2' | translate }} </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="/" class="card card-member">
+                                        <div class="content">
+                                            <div class="description">
+                                                <h3 class="title title-4">{{ 'Land.sga.body.3.name' | translate }}</h3>
+                                                <p class="small-text">{{ 'Land.sga.body.3.commitee.0' | translate }}<br>{{ 'Land.sga.body.3.commitee.1' | translate }}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="second">
+
+        </div>
+    </div>
+</div>
+
+
+<div class="section section-our-clients-freebie" id="pricing">
+    <div class="container">
+        <div class="title-area">
+            <!--<h5 class="subtitle text-gray">Precio</h5>-->
+            <h2>{{ 'Land.price.title' | translate }}</h2>
+            <div _ngcontent-c0="" class="separator separator-blue">✻</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="card-price text-center">
+                    <div>.</div>
+                    <div class="card-price-content"><b><span>20</span>.000</b> COP</div>
+                    <div class="row card-price-footer">
+                        <b>{{ 'Land.price.body.0.name' | translate }}</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card-price text-center">
+                    <div>.</div>
+                    <div class="card-price-content"><b><span>40</span>.000</b> COP</div>
+                    <div class="row card-price-footer">
+                        <b>{{ 'Land.price.body.1.name' | translate }}</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card-price text-center">
+                    <div>.</div>
+                    <div class="card-price-content"><span><b>20</b></span>USD</div>
+                    <div class="row card-price-footer">
+                        <b>{{ 'Land.price.body.2.name' | translate }}</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="active" id="testimonial1">
+            <p class="description text-center">
+                <span class="text-nota">{{ 'Land.price.footer' | translate }}</span>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="section section-small section-get-started">
+    <div class="parallax filter">
+        <div class="image"
+             style="background-image: url('../../../assets/img/cover12.webp')">
+        </div>
+        <div class="container">
+            <div class="title-area">
+                <h2 class="text-white">{{ 'Land.inscription.title' | translate }}</h2>
+                <div class="separator line-separator">♦</div>
+                <p class="description"> {{ 'Land.inscription.subtitle' | translate }}</p>
+            </div>
+
+            <div class="button-get-started">
+                <a routerLink="/delegation"  class="btn btn-danger btn-fill btn-lg">{{ 'Land.inscription.codeBtn1' | translate }}</a>
+            </div>
+            <div class="button-get-started">
+                <a routerLink="/register" class="btn btn-danger btn-fill btn-lg">{{ 'Land.inscription.codeBtn2' | translate }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer footer-big footer-color-black" data-color="black">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3">
+                <div class="info">
+                    <h5 class="title">Intranet</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a routerLink="/login">Login Staff</a></li>
+                            <li>
+                                <a routerLink="/staffRegistry">Register Staff</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+            <!--<div class="col-md-3 col-md-offset-1 col-sm-3">-->
+                <!--<div class="info">-->
+                    <!--<h5 class="title"> Help and Support</h5>-->
+                    <!--<nav>-->
+                        <!--<ul>-->
+                            <!--<li>-->
+                                <!--<a href="#">Contact Us</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#">How it works</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#">Terms &amp; Conditions</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#">Company Policy</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#">Money Back</a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</nav>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-3 col-sm-3">-->
+                <!--<div class="info">-->
+                    <!--<h5 class="title">Latest News</h5>-->
+                    <!--<nav>-->
+                        <!--<ul>-->
+                            <!--<li>-->
+                                <!--<a href="#">-->
+                                    <!--<i class="fa fa-twitter"></i> <b>Get Shit Done</b> The best kit in the market is-->
+                                    <!--here, just give it a try and let us...-->
+                                    <!--<hr class="hr-small">-->
+                                <!--</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#">-->
+                                    <!--<i class="fa fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>!-->
+                                    <!--Thank you everybody for...-->
+                                <!--</a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</nav>-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="col-md-offset-2 col-md-2  col-sm-3">
+                <div class="info">
+                    <h5 class="title">{{ 'land.footer.follow' | translate }}</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/munum.co/"  target="_blank" class="btn btn-social btn-facebook btn-simple">
+                                    <i class="fa fa-facebook-square"></i> Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/munum.co/"  target="_blank" class="btn btn-social btn-dribbble btn-simple">
+                                    <i class="fa fa-instagram"></i> Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            ©
+            <script> document.write(new Date().getFullYear()) </script>
+            Creative Tim, made with love - Edited by Jeisson F. Sánchez
+        </div>
+    </div>
+</footer>

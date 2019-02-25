@@ -1,0 +1,45 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header" data-background-color="red">
+                        <h4 class="title text-white"><b>Usuarios</b></h4>
+                        <p class="category"><b></b></p>
+                    </div>
+                    <div class="card-content table-responsive">
+                        <table class="table">
+                            <thead class="text-danger">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Nombre</th>
+                                    <th>Id</th>
+                                    <th>Institucion</th>
+                                    <th>Codigo</th>
+                                    <th>Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let delegate of delegates; let i = index">
+                                    <td>{{i+1}}</td>
+                                    <td>{{delegate.lastName}}, {{delegate.name}}</td>
+                                    <td>{{delegate.idType}} {{delegate.idNumber}}</td>
+                                    <td>{{delegate.institution}}</td>
+                                    <td class="text-danger">{{delegate.code}}</td>
+                                    <td  class="td-actions text-right">
+                                        <button  class="btn btn-primary btn-simple btn-xs" rel="tooltip" title="Edit Task" type="button" (click)="editView(delegate._id)">
+                                            <i  class="material-icons">edit</i>
+                                        </button>
+                                        <button class="btn btn-danger btn-simple btn-xs" rel="tooltip" title="Remove" type="button" (click)="delete(delegate._id)">
+                                            <i class="material-icons">close</i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

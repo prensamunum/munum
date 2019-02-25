@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc41077d-9c8f-4371-a635-7db57b3e9d34" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1895484924">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="24" />
+          <entry key="html" value="1" />
+          <entry key="js" value="2" />
+          <entry key="json" value="3" />
+          <entry key="scss" value="12" />
+          <entry key="ts" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="24" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="2" />
+          <entry key="SCSS" value="12" />
+          <entry key="TypeScript" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="50" />
+          <entry key="js" value="15" />
+          <entry key="json" value="6" />
+          <entry key="scss" value="22" />
+          <entry key="ts" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="50" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="15" />
+          <entry key="SCSS" value="22" />
+          <entry key="TypeScript" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1833675830">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="json" value="2" />
+          <entry key="ts" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="35" />
+          <entry key="json" value="23" />
+          <entry key="ts" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="35" />
+          <entry key="JSON" value="23" />
+          <entry key="TypeScript" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1223135469">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+          <entry key="json" value="2" />
+          <entry key="scss" value="1" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="2" />
+          <entry key="SCSS" value="1" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="110" />
+          <entry key="json" value="133" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="110" />
+          <entry key="JSON" value="133" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>human rig</find>
+      <find>Poli</find>
+      <find>conso</find>
+      <find>consor</find>
+      <find>wron</find>
+      <find>delegate</find>
+      <find>title-area</find>
+      <find>ADN</find>
+      <find>requerimien</find>
+      <find>idType</find>
+      <find>instit</find>
+      <find>id</find>
+      <find>fiel</find>
+      <find>birth</find>
+      <find>institu</find>
+      <find>birdh</find>
+      <find>email</find>
+      <find>city</find>
+      <find>country</find>
+      <find>atendere</find>
+      <find>date</find>
+      <find>findBy</find>
+      <find>find</find>
+      <find>update</find>
+      <find>dist</find>
+      <find>AppRoutes</find>
+      <find>material-dashboard.</find>
+      <find>cardScroll</find>
+      <find>junio</find>
+      <find>25</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\src</dir>
+      <dir>C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\typings</dir>
+      <dir>C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\node_modules\jquery</dir>
+      <dir>C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\node_modules</dir>
+      <dir>C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/credentials/register/register.component.html" />
+        <option value="$PROJECT_DIR$/src/app/credentials/delegation/delegation.component.html" />
+        <option value="$PROJECT_DIR$/app/models/delegation.server.model.js" />
+        <option value="$PROJECT_DIR$/src/app/table-list/edit-delegations/edit-delegations.component.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/user-page/especializados/especializados.component.html" />
+        <option value="$PROJECT_DIR$/src/app/table-list/delegations/delegations.component.html" />
+        <option value="$PROJECT_DIR$/src/app/user-page/crisis/crisis.component.html" />
+        <option value="$PROJECT_DIR$/src/app/user-page/regionales/regionales.component.html" />
+        <option value="$PROJECT_DIR$/src/app/services/delegate/delegate.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/card/card.component.html" />
+        <option value="$PROJECT_DIR$/src/app/user-page/onu/onu.component.html" />
+        <option value="$PROJECT_DIR$/src/app/upgrade/upgrade.component.html" />
+        <option value="$PROJECT_DIR$/src/app/upgrade/upgrade.component.ts" />
+        <option value="$PROJECT_DIR$/app/routes/delegate.server.route.js" />
+        <option value="$PROJECT_DIR$/app/controllers/delegate.server.controller.js" />
+        <option value="$PROJECT_DIR$/config/express.js" />
+        <option value="$PROJECT_DIR$/src/app/layouts/admin/admin-layout.component.html" />
+        <option value="$PROJECT_DIR$/angular-cli.json" />
+        <option value="$PROJECT_DIR$/src/app/card/card.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/committees/committees.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/credentials/delegation/delegation.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/credentials/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/credentials/register/register.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/credentials/register/register.component.css" />
+        <option value="$PROJECT_DIR$/src/app/credentials/staff-registry/staff-registry.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/credentials/wrong/wrong.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/table-list/delegates/delegates.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/table-list/delegations/delegations.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/table-list/edit-delegates/edit-delegates.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/table-list/edit-delegations/edit-delegations.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/table-list/edit-staff/edit-staff.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/table-list/staff/staff.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user-page/crisis/crisis.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user-page/crisis/crisis.component.css" />
+        <option value="$PROJECT_DIR$/src/app/user-page/especializados/especializados.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user-page/especializados/especializados.component.css" />
+        <option value="$PROJECT_DIR$/src/app/user-page/intro/intro.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user-page/onu/onu.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user-page/regionales/regionales.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user-page/user-footer/user-footer.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user-page/land/land.component.css" />
+        <option value="$PROJECT_DIR$/src/app/user-page/onu/onu.component.css" />
+        <option value="$PROJECT_DIR$/src/app/user-page/onu/onu.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/user-page/regionales/regionales.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/user-page/regionales/regionales.component.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/app/user-page/land/land.component.ts" />
+        <option value="$PROJECT_DIR$/src/assets/i18n/en.json" />
+        <option value="$PROJECT_DIR$/src/app/user-page/land/land2.component.html" />
+        <option value="$PROJECT_DIR$/src/assets/i18n/es.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-184" />
+    <option name="y" value="324" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="user-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="user-page" type="462c0819:PsiDirectoryNode" />
+              <item name="land" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="user-page" type="462c0819:PsiDirectoryNode" />
+              <item name="land" type="462c0819:PsiDirectoryNode" />
+              <item name="land.component.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Munum'19 - Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Munum'19 - Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="components" type="cbb8eebc:String" user="components" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="components" type="cbb8eebc:String" user="components" />
+              <item name="sidebar" type="cbb8eebc:String" user="sidebar" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="credentials" type="cbb8eebc:String" user="credentials" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="services" type="cbb8eebc:String" user="services" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="services" type="cbb8eebc:String" user="services" />
+              <item name="delegate" type="cbb8eebc:String" user="delegate" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Dash" type="cbb8eebc:String" user="Dash" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="credentials" type="cbb8eebc:String" user="credentials" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.karma.karma_node_package_dir" value="$PROJECT_DIR$/node_modules/karma" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\node_modules\tslint" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="G:\Files\Gitlab\Munum'19 - Web\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\src\app\services\cookies" />
+      <recent name="C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\src\app\services\delegation" />
+      <recent name="C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\src\app\services\staff" />
+      <recent name="C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\src\app\services\delegate" />
+      <recent name="C:\Users\Jeisson F. Sanchez\Documents\GitHub\Dash\src\app\user-page\intro" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Files\Gitlab\Dash\src\app\user-page\user-footer" />
+      <recent name="G:\Files\Gitlab\Dash\src\app\user-page\regionales" />
+      <recent name="G:\Files\Gitlab\Dash\src\app\user-page\onu" />
+      <recent name="G:\Files\Gitlab\Dash\src\app\user-page\land" />
+      <recent name="G:\Files\Gitlab\Dash\src\app\user-page\intro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppComponent.should render title in a h1 tag" type="JavaScriptTestRunnerKarma" factoryName="Karma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-names>
+        <test-name value="AppComponent" />
+        <test-name value="should render title in a h1 tag" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.AppComponent.should render title in a h1 tag" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc41077d-9c8f-4371-a635-7db57b3e9d34" name="Default" comment="" />
+      <created>1517452812923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517452812923</updated>
+      <workItem from="1517452814332" duration="11978000" />
+      <workItem from="1517498328075" duration="54744000" />
+      <workItem from="1517636000885" duration="2683000" />
+      <workItem from="1517679000889" duration="30646000" />
+      <workItem from="1517803770696" duration="13383000" />
+      <workItem from="1517864518793" duration="86274000" />
+      <workItem from="1518017816900" duration="24799000" />
+      <workItem from="1518107922394" duration="33567000" />
+      <workItem from="1518157460040" duration="2725000" />
+      <workItem from="1518160661331" duration="283000" />
+      <workItem from="1518407162656" duration="602000" />
+      <workItem from="1518567331729" duration="2664000" />
+      <workItem from="1518633121735" duration="3483000" />
+      <workItem from="1518729542586" duration="3984000" />
+      <workItem from="1518733858726" duration="766000" />
+      <workItem from="1519273918603" duration="28202000" />
+      <workItem from="1519613906185" duration="9079000" />
+      <workItem from="1519924036454" duration="55544000" />
+      <workItem from="1520739734388" duration="5734000" />
+      <workItem from="1520748710697" duration="90631000" />
+      <workItem from="1521177428206" duration="6430000" />
+      <workItem from="1521410855682" duration="5256000" />
+      <workItem from="1521644109826" duration="4809000" />
+      <workItem from="1522366064817" duration="77088000" />
+      <workItem from="1523087624074" duration="708000" />
+      <workItem from="1523336888312" duration="654000" />
+      <workItem from="1525232379666" duration="2215000" />
+      <workItem from="1525235222301" duration="1030000" />
+      <workItem from="1525322734293" duration="2432000" />
+      <workItem from="1525535613842" duration="2720000" />
+      <workItem from="1526446567485" duration="840000" />
+      <workItem from="1526533294369" duration="1739000" />
+      <workItem from="1526743485897" duration="1280000" />
+      <workItem from="1526851828319" duration="5533000" />
+      <workItem from="1526962210021" duration="10862000" />
+      <workItem from="1527364300316" duration="11325000" />
+      <workItem from="1527576331782" duration="10375000" />
+      <workItem from="1527829713211" duration="5857000" />
+      <workItem from="1528680391906" duration="43000" />
+      <workItem from="1528858821556" duration="2064000" />
+      <workItem from="1529877605253" duration="2786000" />
+      <workItem from="1531969653831" duration="1794000" />
+      <workItem from="1532280868255" duration="6004000" />
+      <workItem from="1532486462440" duration="1205000" />
+      <workItem from="1532881050439" duration="1818000" />
+      <workItem from="1547607819308" duration="239000" />
+      <workItem from="1547609467923" duration="2950000" />
+      <workItem from="1547613654020" duration="1673000" />
+      <workItem from="1547926547237" duration="708000" />
+      <workItem from="1547931409226" duration="3102000" />
+      <workItem from="1548122572068" duration="875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="638185000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15226555" />
+      <window_info id="Structure" order="3" weight="0.24973656" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.27291885" side_tool="true" weight="0.3195652" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49789253" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49789253" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32934782" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.7270811" visible="true" weight="0.39262474" />
+      <window_info anchor="bottom" id="TypeScript" order="6" weight="0.32934782" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15226555" />
+      <window_info id="Structure" order="3" weight="0.24973656" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.27291885" side_tool="true" weight="0.3195652" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49789253" weight="0.32934782" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49789253" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32934782" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.7270811" visible="true" weight="0.39262474" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32934782" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main.ts</url>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/credentials/login/login.component.ts</url>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/table-list/table-list.routing.ts</url>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/credentials/register/register.component.ts</url>
+          <line>1</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/credentials/delegation/delegation.component.ts</url>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/user-page/user-page.routing.ts</url>
+          <line>5</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/register/register.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/register/register.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/staff-registry/staff-registry.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/staff-registry/staff-registry.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/wrong/wrong.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/wrong/staff-registry.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/wrong/wrong.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/credentials/wrong/wrong.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/delegates/delegates.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/delegates/delegates.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/delegations/delegations.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/delegations/delegations.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/delegations/delegations.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-delegates/edit-delegates.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-delegates/edit-delegates.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-delegations/edit-delegations.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-delegations/edit-delegations.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-delegations/edit-delegations.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-staff/edit-staff.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-staff/edit-staff.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/edit-staff/edit-staff.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/staff/staff.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/staff/staff.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/table-list/staff/staff.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/especializados/especializados.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/crisis/crisis.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/crisis/crisis.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/crisis/crisis.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/especializados/especializados.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/especializados/especializados.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/especializados/especializados.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/intro/intro.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/intro/intro.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/onu/onu.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/user-footer/user-footer.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/user-footer/user-footer.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/regionales/regionales.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/onu/onu.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/onu/onu.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/regionales/regionales.component.scss" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/regionales/regionales.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/onu/onu.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/i18n/en - Copy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/land/land.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="128" column="15" selection-start-line="128" selection-start-column="15" selection-end-line="128" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/land/land.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/land/land2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/land/land.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/user-page/land/land.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/i18n/es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

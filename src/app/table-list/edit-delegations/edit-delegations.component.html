@@ -1,0 +1,261 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="login-page">
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="btn btn-default" routerLink="/admin/delegations">
+                        <div>< atras</div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+
+                    <form (submit)="onSubmit()">
+                        <div class="card card-login">
+                            <div class="card-header" data-background-color="orange">
+                                <h4 class="card-title"><b>Registro Delegación</b></h4>
+                                <p class="category">Ingrese los datos a continuacion</p>
+                            </div>
+
+                            <!--Error-->
+                            <div class="text-danger text-center" *ngIf="err">
+                                {{err}}
+                            </div>
+
+                            <!--Contenido-->
+                            <div class="card-content">
+
+                                <hr>
+                                <span class="required"><b>Codigo</b></span>
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">Codgio?</label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="delegation.code" name="requires">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <br>
+                                <span class="required"><b>Información General</b></span>
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">Tipo de institucion<span
+                                                    class="required">*</span></label>
+                                            <select class="form-control formFormat"
+                                                    [(ngModel)]="delegation.institutionType" name="institutionType">
+                                                <option value="Colegio">Colegio</option>
+                                                <option value="Unviersidad">Unviersidad</option>
+                                                <option value="Otro">Otro</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">Nombre Institución<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="delegation.institutionName"
+                                                   name="institutionName">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'delegation.fields.delegatesNum' | translate}}<span class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.delegatesNum" name="delegatesNum">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <br>
+                                <hr>
+                                <span class="required"><b>Informacion Sponsor</b></span>
+
+
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">Nombre del Sponosor(s)<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="delegation.sponsorName" name="sponsorName">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">Celular(es)<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="delegation.sponsorCel" name="sponsorCel">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'delegation.fields.sponsorEmail' | translate }}<span class="required">*</span></label>
+                                            <input type="email" class="form-control" [(ngModel)]="delegation.sponsorEmail" name="sponsorEmail">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.birth' | translate }}<span class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.birth" name="birth">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <!--<label for="sel1">Type of Id</label>-->
+                                        <select class="form-control formFormat" [(ngModel)]="delegation.idType" name="idType">
+                                            <option value="" disabled="true">{{ 'register.fields.idType' | translate }}</option>
+                                            <option value="C.C">C.C</option>
+                                            <option value="T.I">T.I</option>
+                                            <option value="P.P">Passport</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.idNumber' | translate }}<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.idNumber"
+                                                   name="idNumber">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.cellphone' | translate }}<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.cellphone"
+                                                   name="cellphone">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <select class="form-control formFormat" [(ngModel)]="delegation.country" name="country">
+                                            <option value="" disabled="true" >{{ 'register.fields.country' | translate }}</option>
+                                            <option *ngFor="let country of countries">{{country.nombre}}</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.city' | translate }}<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.city" name="city">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <br>
+                                    <div class="col-md-3">
+                                        <div class="formFormat2">{{ 'register.fields.vegetarian' | translate }}</div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="togglebutton">
+                                            <label>
+                                                <input type="checkbox" [(ngModel)]="delegation.vegetarian" name="vegetarian">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <hr>
+                                <span class="required"><b>{{ 'register.labels.emergencyData' | translate }}</b></span>
+
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <select class="form-control formFormat" [(ngModel)]="delegation.blood" name="blood">
+                                            <option value="" disabled="true">{{ 'register.fields.blood' | translate }}</option>
+                                            <option value="A+">A+</option>
+                                            <option value="A-">A-</option>
+                                            <option value="B+">B+</option>
+                                            <option value="B-">B-</option>
+                                            <option value="O+">O+</option>
+                                            <option value="O-">O-</option>
+                                            <option value="AB+">AB+</option>
+                                            <option value="AB-">AB-</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.insurance' | translate }}<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.insurance"
+                                                   name="insurance">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.specialCondition' | translate }}</label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.specialCondition"
+                                                   name="specialCondition">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.contactName' | translate }}<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.contactName"
+                                                   name="contactName">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">{{ 'register.fields.contactPhone' | translate }}<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" [(ngModel)]="delegation.contactPhone"
+                                                   name="contactPhone">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <hr>
+                                <span class="required"><b>Requerimientos</b></span>
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-black">
+                                            <label class="control-label">¿Su institución tiene algún
+                                                requerimiento especial?</label>
+                                            <input type="text" class="form-control"
+                                                   [(ngModel)]="delegation.requires" name="requires">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <button type="submit" class="btn btn-warning pull-right">Actualizar</button>
+                                <button type="cancel" class="btn btn-default pull-right">Cancelar</button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

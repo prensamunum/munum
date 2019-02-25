@@ -1,0 +1,314 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class=" register-page">
+            <div class="content">
+                <div class="row">
+
+                    <div class="col-md-2">
+                        <div class="btn btn-default" routerLink="/admin/delegates">
+                            <div>< atras</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-header" data-background-color="orange">
+                                <h4 class="title text-white"><b>Welcome</b></h4>
+                                <p class="category">{{delegate._id}}</p>
+                            </div>
+                            <div class="card-content">
+
+                                <!--Formularo de registro-->
+                                <form (submit)="onSubmit()">
+
+                                    <!--Content-->
+                                    <br>
+                                    <span class="required"><b>Comité final</b></span>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <select class="form-control formFormat" [(ngModel)]="delegate.finalCommittee" name="finalCommittee">
+                                                <option value="" disabled="true" >Seleccione comité final</option>
+                                                <option [value]="delegate.committee1">{{committees(delegate.committee1)}}</option>
+                                                <option [value]="delegate.committee2">{{committees(delegate.committee2)}}</option>
+                                                <option [value]="delegate.committee3">{{committees(delegate.committee3)}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <span class="required"><b>General Information</b></span>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Name<span class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.name"
+                                                       name="name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Last Name<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.lastName"
+                                                       name="lastName">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Email address<span
+                                                        class="required">*</span></label>
+                                                <input type="email" class="form-control" [(ngModel)]="delegate.email"
+                                                       name="email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Birth (DD/MM/YY)<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.birth"
+                                                       name="birth">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <!--<label for="sel1">Type of Id</label>-->
+                                            <select class="form-control formFormat" [(ngModel)]="delegate.idType"
+                                                    name="idType">
+                                                <option value="C.C">C.C</option>
+                                                <option value="T.I">T.I</option>
+                                                <option value="P.P">Passport</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Id number<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.idNumber"
+                                                       name="idNumber">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Cellphone<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.cellphone"
+                                                       name="cellphone">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Country of residency<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.country"
+                                                       name="country">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">City of residency<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.city"
+                                                       name="city">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Educational institution<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control"
+                                                       [(ngModel)]="delegate.institution"
+                                                       name="institution">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Major or undergraduate degree<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.degree"
+                                                       name="degree">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <hr>
+                                    <span class="required"><b>Emergency Data</b></span>
+
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <select class="form-control formFormat" [(ngModel)]="delegate.blood"
+                                                    name="blood">
+                                                <option value="A+">A+</option>
+                                                <option value="A-">A-</option>
+                                                <option value="B+">B+</option>
+                                                <option value="B-">B-</option>
+                                                <option value="O+">O+</option>
+                                                <option value="O-">O-</option>
+                                                <option value="AB+">AB+</option>
+                                                <option value="AB-">AB-</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Health insurance<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.insurance"
+                                                       name="insurance">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Special health condition</label>
+                                                <input type="text" class="form-control"
+                                                       [(ngModel)]="delegate.specialCondition"
+                                                       name="specialCondition">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Emergency contact: Name<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control"
+                                                       [(ngModel)]="delegate.contactName"
+                                                       name="contactName">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label">Emergency contact: Phone <span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control"
+                                                       [(ngModel)]="delegate.contactPhone"
+                                                       name="contactPhone">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label"> Number of years participating in UN models<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.numberMun"
+                                                       name="numberMun">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <br>
+                                    <hr>
+                                    <span class="required"><b>MUNUM Data</b></span>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-3">
+                                                <label class="formFormat">Preference committee 1<span
+                                                        class="required">*</span></label>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <select class="col-md-9 form-control formFormat"
+                                                        [(ngModel)]="delegate.committee1" name="committee1">
+                                                    <option value="1">Consejo de Seguridad</option>
+                                                    <option value="2">Comité de Estado Mayor</option>
+                                                    <option value="3">Human Rights Council</option>
+                                                    <option value="4">CPH - Manama 2018</option>
+                                                    <option value="5">Comisión de Derecho Internacional</option>
+                                                    <option value="6">Senado de la República</option>
+                                                    <option value="7">Mesa de Astaná</option>
+                                                    <option value="8">Consorcio Mundial de Prensa</option>
+                                                    <option value="9">Juego de Tronos</option>
+                                                    <option value="10">GAC Electoral</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-3">
+                                                <label class="formFormat">Preference committee 2<span
+                                                        class="required">*</span></label>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <select class="col-md-9 form-control formFormat"
+                                                        [(ngModel)]="delegate.committee2" name="committee2">
+                                                    <option value="1">Consejo de Seguridad</option>
+                                                    <option value="2">Comité de Estado Mayor</option>
+                                                    <option value="3">Human Rights Council</option>
+                                                    <option value="4">CPH - Manama 2018</option>
+                                                    <option value="5">Comisión de Derecho Internacional</option>
+                                                    <option value="6">Senado de la República</option>
+                                                    <option value="7">Mesa de Astaná</option>
+                                                    <option value="8">Consorcio Mundial de Prensa</option>
+                                                    <option value="9">Juego de Tronos</option>
+                                                    <option value="10">GAC Electoral</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-3">
+                                                <label class="formFormat">Preference committee 3<span
+                                                        class="required">*</span></label>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <select class="col-md-9 form-control formFormat"
+                                                        [(ngModel)]="delegate.committee3" name="committee3">
+                                                    <option value="1">Consejo de Seguridad</option>
+                                                    <option value="2">Comité de Estado Mayor</option>
+                                                    <option value="3">Human Rights Council</option>
+                                                    <option value="4">CPH - Manama 2018</option>
+                                                    <option value="5">Comisión de Derecho Internacional</option>
+                                                    <option value="6">Senado de la República</option>
+                                                    <option value="7">Mesa de Astaná</option>
+                                                    <option value="8">Consorcio Mundial de Prensa</option>
+                                                    <option value="9">Juego de Tronos</option>
+                                                    <option value="10">GAC Electoral</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <hr>
+                                    <span class="required"><b>Codigo</b></span>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group form-black">
+                                                <label class="control-label"> Codigo<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" [(ngModel)]="delegate.code"
+                                                       name="code">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-warning pull-right">Actualizar</button>
+                                    <button type="cancel" class="btn btn-default pull-right">Cancelar</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
