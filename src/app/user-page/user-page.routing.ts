@@ -6,6 +6,7 @@ import {CrisisComponent} from './crisis/crisis.component';
 import {EspecializadosComponent} from './especializados/especializados.component';
 import {RegionalesComponent} from './regionales/regionales.component';
 import {UserFooterComponent} from './user-footer/user-footer.component';
+import {InterconexionComponent} from './interconexion/interconexion.component';
 
 
 export const ComponentsRoutes: Routes = [
@@ -31,6 +32,10 @@ export const ComponentsRoutes: Routes = [
             {
                 path: 'regionales',
                 component: RegionalesComponent
+            },
+            {
+                path: 'interconexion',
+                component: InterconexionComponent
             },
             {
                 path: 'user-footer',
