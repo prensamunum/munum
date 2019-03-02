@@ -13,6 +13,7 @@ import {UserFooterComponent} from './user-footer/user-footer.component';
 import {CrisisComponent} from './crisis/crisis.component';
 import {EspecializadosComponent} from './especializados/especializados.component';
 import {RegionalesComponent} from './regionales/regionales.component';
+import {InterconexionComponent} from './interconexion/interconexion.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http);
@@ -38,6 +39,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         CrisisComponent,
         EspecializadosComponent,
         RegionalesComponent,
+        InterconexionComponent, 
     ],
     exports: [
         LandComponent,
