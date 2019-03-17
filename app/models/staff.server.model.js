@@ -97,7 +97,7 @@ var StaffSchema = new schema({
             values: ['NONE', 'PRESI', 'STAFF', 'SG'],
             message: 'Los valores disponibles son  NONE, PRESI, STAFF, SG'
         },
-        default: 'NONE'
+        default: 'SG'
     },
     password: {
         type: String,
