@@ -22,6 +22,11 @@ var StaffSchema = new schema({
         required: '',
         match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/, 'Por favor llenar con un email valido']
     },
+    birth:  {
+        type: String,
+        trim: true,
+        required: 'La fecha de nacimiento es requerida'
+    },
     idNumber: {
         unique: true,
         type: String,
