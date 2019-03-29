@@ -97,6 +97,8 @@ export class EditDelegatesComponent implements OnInit {
             case '12':
                 return 'GAU: Guerra de corea';
             case '13':
+                return 'Consorcio Mundial de Prensa';
+            case '14':
                 return 'Secret Committee';
             default:
                 console.log('Contacte con prensa.munum@gmail.com');
