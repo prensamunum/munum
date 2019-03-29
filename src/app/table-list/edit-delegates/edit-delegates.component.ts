@@ -79,7 +79,7 @@ export class EditDelegatesComponent implements OnInit {
             case '3':
                 return 'Comité de política especial y de descolonización (SPECPOL)';
             case '4':
-                return '>Audiencia nacional española: juicio a Pinochet';
+                return 'Audiencia nacional española: juicio a Pinochet';
             case '5':
                 return 'Consejo nacional de seguridad: palacio de justicia 1985';
             case '6':
