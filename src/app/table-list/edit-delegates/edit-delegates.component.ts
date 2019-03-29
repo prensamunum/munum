@@ -73,29 +73,36 @@ export class EditDelegatesComponent implements OnInit {
     committees(option) {
         switch (option) {
             case '1':
-                return 'Consejo de Seguridad';
+                return 'Security council (Doble delegación)';
             case '2':
-                return 'Comité de Estado Mayor';
+                return 'Corte Internacional de Justicia (CIJ)';
             case '3':
-                return 'Human Rights Council';
+                return 'Comité de política especial y de descolonización (SPECPOL)';
             case '4':
-                return 'Comité del Patrimonio de la Humanidad';
+                return '>Audiencia nacional española: juicio a Pinochet';
             case '5':
-                return 'Comisión de Derecho Internacional';
+                return 'Consejo nacional de seguridad: palacio de justicia 1985';
             case '6':
-                return 'Senado de la República';
+                return 'Banco Interamericano de Desarrollo (BID) asamblea anual';
             case '7':
-                return 'Mesa de Astaná';
+                return 'Comisión de DDHH y de los pueblos de la Unión Africana';
             case '8':
-                return 'Consorcio Mundial de Prensa';
+                return 'Commonwealth of Nations';
             case '9':
-                return 'Juego de Tronos';
+                return 'Foro de cooperación económica Asia – Pacífico (APEC)';
             case '10':
-                return 'GAC Electoral';
+                return 'GAC: Trotsky vs Stalin';
+            case '11':
+                return 'GAC: Guerra de los 30 años';
+            case '12':
+                return 'GAU: Guerra de corea';
+            case '13':
+                return 'Secret Committee';
             default:
                 console.log('Contacte con prensa.munum@gmail.com');
         }
     }
+
 
     onSubmit() {
         console.log(this.delegate);
