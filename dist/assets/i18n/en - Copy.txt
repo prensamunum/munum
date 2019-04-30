@@ -1,0 +1,43 @@
+{
+  "Title": "Munum",
+  "Land": {
+    "munum": "Model United Nations - Universidad Militar Nueva Granada",
+    "date": "DEL 1 AL 4 DE JUNIO DE 2018",
+    "welcome": {
+      "title": "Bienvenidos",
+      "body": "",
+      "handbook": "Descargar Handbook",
+      "metrix": "Descargar matrixz de calificación",
+      "contries": "Descargar Matriz de paises"
+    },
+    "sga": {
+      "title": "Comités",
+      "subtitle": "Nuestros 11 comites estan divididos en cuantro Subsecretarías Generales Adjuntas (SGA):",
+      "body" : [
+        { "name":"ONU", "commitee":[ "Consejo de Seguridad", "Comité de Estado Mayor", "United Nations Human" ] },
+        { "name":"CRISIS", "commitee":[ "GAG: Electoral", "GAG: Juego de Tronos"]},
+        { "name":"ESPECIALIZADOS", "commitee":[ "Comité del Patrimonio de la Humanidad", "Senado de la República de Colombia" , "Comisión de Derecho Internacional"]},
+        { "name":"REGIONALES Y EXTRAORDINARIOS", "commitee":[ "Consorcio Mundial de Prensa", "Mesa de Astana (Foro especial para la consolidación de la paz en Siria"]},
+      ]
+    },
+    "price": {
+      "title": "Costo de Inscripción",
+      "subtitle": "",
+      "body": [
+        { "name":"Participantes UMNG", "price": "$20.000 COP"},
+        { "name":"Participantes Externos", "price": "$40.000 COP"},
+        { "name":"Participantes ", "price": "$20.00 USD"}
+      ],
+      "footer" : "El costo de la inscripción incluye: Participación en MUNUM , Kit del delegado, almuerzos, refrigerios y certificado de asistencia."
+    },
+    "inscription": {
+      "title": "Inscripción",
+      "subtitle": "Si eres parte de una delegacion, de dos o mas parsosn que representan una intitucion fromal, primero genera el codigo para la delegacion y luego inscribe a todos los delegados en registro general",
+      "codeBtn": "GENERAR CÓDIGO PARA DELEGACION",
+      "codeBtn": "REGISTRO GENERAL",
+    },
+    "footer": {
+      "follow": "Siguenos"
+    }
+  }
+}
